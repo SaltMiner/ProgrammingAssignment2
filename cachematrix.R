@@ -1,8 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
+#################################################################
+## Generate an object that is a matrix with a cachable inverse ##
+#################################################################
 makeCacheMatrix <- function(x = matrix()) 
 {
    i <- NULL
@@ -35,9 +33,9 @@ cacheSolve <- function(x, ...)
    i
 }
 
-##########################################################################
-## Test function so I don't have to keep typing into the command prompt ##
-##########################################################################
+############################################################################
+## Test function (so I don't have to keep typing into the command prompt) ##
+############################################################################
 testsolve <- function()
 {
    ## Make a simple matrix
